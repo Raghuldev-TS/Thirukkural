@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.cardGrid {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  -ms-grid-columns: (285px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 285px);
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardGrid .ant-card {
+  border: 1px solid #ddd;
+  height: 100%;
+}
+
+.cardButton {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  -ms-grid-columns: (50px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 50px);
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.thirukuralContainer {
+  padding: 50px 25px;
+  min-height: 100vh;
+}
+
+.thirukuralContainer h1 {
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.thirukuralContainer form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.thirukuralContainer form .ant-row:last-child {
+  margin-bottom: 0;
+}
+
+.thirukuralContainer .kural_details .ant-descriptions-view {
+  border: 1px solid #ddd;
+}
+
+.thirukuralContainer .kural_details .ant-descriptions-view th,
+.thirukuralContainer .kural_details .ant-descriptions-view td,
+.thirukuralContainer .kural_details .ant-descriptions-view tr {
+  border-color: #ddd;
+}
+/*# sourceMappingURL=styles.css.map */
